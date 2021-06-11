@@ -1,37 +1,97 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
-You can use the [editor on GitHub](https://github.com/rahule16/nk/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
-### Markdown
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.dropdown-content a:hover {background-color: #f1f1f1}
 
-```markdown
-Syntax highlighted code block
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-# Header 1
-## Header 2
-### Header 3
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+<h1 style="color:RED;"><CENTER>   Cricket League Tournament</h1>
 
-- Bulleted
-- List
+<button class="dropbtn" href="#">Countries</button>
 
-1. Numbered
-2. List
+<div class="dropdown">
+  <button class="dropbtn">Teams</button>
+  <div class="dropdown-content">
+  <a href="#">Profile</a>
+  
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Players</button>
+  <div class="dropdown-content">
+  <a href="#">Profile</a>
+  
+  </div>
+</div> 
+<button class="dropbtn" href="#">Venue</button>
 
-**Bold** and _Italic_ and `Code` text
+<div class="dropdown">
+  <button class="dropbtn">Matches</button>
+  <div class="dropdown-content">
+  <a href="#">List Of Matches</a>
 
-[Link](url) and ![Image](src)
-```
+  <div class="dropdown-content">
+  
+ <a href="#">Match Summary</a></li>
+    <ul>
+              <a href="#">Team Details</a>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        <a href="#">Winner</a>
+                <a href="#">looser</a>
 
-### Jekyll Themes
+  <a href="#">Man of the Match</a>
+  <a href="#">Bowler of the Match</a>
+  <a href="#">Best Fielder</a>
+    </div>
+</div>  
+  </div>
+</div> 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rahule16/nk/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<button class="dropbtn" href="#">Results</button>
+ </div>
+</div> 
+<button class="dropbtn" href="#">Tournament Score Table</button>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </div>
+</div> 
+</body>
+</html>
