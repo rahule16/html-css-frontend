@@ -1,0 +1,66 @@
+body{
+  padding: 15px;
+}
+.title {
+background-color: red;	color: white;
+}
+.dropdown {
+    /* Border */
+    border:0.5px solid red ;div {border-color: coral;}
+;
+    display: flex;
+
+    /* Reset list styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown li {
+    /* Spacing */
+    padding: 3px;
+
+    /* Used to position the sub dropdown */
+    position: relative;
+}
+
+/* The sub dropdown */
+.dropdown ul {
+    /* Border */
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+
+    /* Hidden by default */
+    display: none;
+
+    /* Absolute position */
+    left: 0;
+    position: absolute;
+    top: 100%;
+
+    /* Reset styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    /* Width */
+    width: 300px;
+}
+
+/* The second level sub dropdown */
+.dropdown ul ul {
+    left: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/* Change background color of list item when being hovered */
+.dropdown li:hover {
+  background-color: rgba(50, 115, 220, 0.3);
+}
+
+/* Show the direct sub dropdown when hovering the list item */
+.dropdown li:hover > ul {
+    display: block;
+}
+
+
