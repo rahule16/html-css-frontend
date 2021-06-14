@@ -6,7 +6,7 @@ background-color: red;	color: white;
 }
 .dropdown {
     /* Border */
-    border:0.5px solid red ;div {border-color: coral;}
+    border:1px solid red ;div {border-color: coral;}
 ;
     display: flex;
 
@@ -27,7 +27,7 @@ background-color: red;	color: white;
 /* The sub dropdown */
 .dropdown ul {
     /* Border */
-    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
 
     /* Hidden by default */
     display: none;
