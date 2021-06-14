@@ -18,7 +18,7 @@ background-color: red;	color: white;
 
 .dropdown li {
     /* Spacing */
-    padding: 3px;
+    padding: 6px;
 
     /* Used to position the sub dropdown */
     position: relative;
